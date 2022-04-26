@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+
+#tit{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(49, 62, 250);
+}
+
+.let{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 187, 0);
+}
+
+#fin{
+    color: red;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#caja {
+    width: 1000px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}

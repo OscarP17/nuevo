@@ -1,0 +1,36 @@
+/*Centro de tecnología agropecuraia
+Analisis de desarrollo de software
+Ficha 2470980 
+Autor: Oscar Pinzon 
+Fecha de creación 23 de Ferbrero de 2020
+Fecha de actualización 28 de Febrero de 2020*/
+
+body {
+    background-color: rgb(120, 3, 199);
+}
+
+#art {
+    font-size: x-large;
+    color: rgb(251, 255, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.let{
+    color: rgb(6, 185, 45);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fin {
+    color: rgb(226, 44, 135);
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container{
+    width: 900px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}

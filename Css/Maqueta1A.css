@@ -1,0 +1,13 @@
+#obj1{
+    background-color:bisque;
+    color: darkblue;
+}
+
+#obj2{
+    background-color:beige;
+    border: 3px; color: orange;
+}
+#obj3{
+    background-color:brown;
+    border: 3px; color: rgb(105, 70, 3);
+}

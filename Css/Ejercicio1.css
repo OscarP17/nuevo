@@ -1,0 +1,28 @@
+/*Centro de tecnología agropecuraia
+Analisis de desarrollo de software
+Ficha 2470980 
+Autor: Oscar Pinzon 
+Fecha de creación 23 de Ferbrero de 2020
+Fecha de actualización 28 de Febrero de 2020*/
+
+body {
+    background-color:green;
+}
+#p1 {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.p2 {
+    font-size: x-large;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container {
+    width: 800px;
+    height: 500px;
+    background-color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+}

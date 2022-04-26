@@ -1,0 +1,26 @@
+body{
+    background-color: darkorchid;
+}
+#container p a:hover{
+color: azure;
+}
+#tit1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+}
+.tit2{
+    color: gold;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 25px;
+}

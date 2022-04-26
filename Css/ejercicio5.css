@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(255, 0, 0);
+}
+
+#tit{
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.par{
+    color: black;
+    font-size: larger;
+}
+
+#caja{
+    width: 700px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}

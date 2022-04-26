@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Centro de tecnología agropecuraia
+Analisis de desarrollo de software
+Ficha 2470980 
+Fecha de creacióm 16 de Ferbrero de 2020
+Fecha de actualización 22 de Febrero de 2020
+-->
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Información sobre el producto</title>
+      <link rel="icon" href="img/15.jpg">
+  </head>
+  <body>
+      <h3>Información sobre el producto</h3>
+
+      <form action="/php/insertar_subasta.php" method="post" enctype="multipart/form-data">
+      
+      <fieldset>
+        <legend>Datos básicos</legend>
+      
+        <label for="nombre">Nombre</label> <br/>
+        <input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+      
+        <br/><br/>
+      
+        <label for="descripcion">Descripción</label> <br/>
+        <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+      
+        <br/><br/>
+      
+        Foto <input type="file" name="foto" />
+      
+        <br/><br/>
+      
+        <input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+      </fieldset>
+      
+      <fieldset>
+        <legend>Datos económicos</legend>
+      
+        <label for="precio">Precio</label>
+        <input type="text" size="5" id="precio" name="precio" /> &euro;
+      
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+        <label for="impuestos">Impuestos</label>
+        <select id="impuestos" name="impuestos">
+          <option value="4">4%</option>
+          <option value="7">7%</option>
+          <option value="16">16%</option>
+          <option value="25">25%</option>
+        </select>
+      
+        <br/><br/>
+      
+        <label>Promoción</label> <br/>
+        <input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno <br/>
+        <input type="radio" name="promocion" value="portes" /> Transporte gratuito <br/>
+        <input type="radio" name="promocion" value="descuento" /> Descuento 5%
+      </fieldset>
+      </form>        
+  </body>
+  <!--Etiquetas utilizadas
+  Head= delimita el encabezado del documento	
+  Body= delimita el cuerpo del documento
+  Meta= metainformación sobre el documento	name, content, charset
+  H3= Texto paraa titulo
+  Form= que hay en el formulario form.name .name devuelve el nombre del formulario actual en forma de cadena. 
+  Fieldset=  Elemento en bloque.
+  Legend= leyenda de grupo de controles
+  Select= caja de lista
+  Option= Texto con,  eventualmente, caracteres especiales
+  Br= salto de línea
+  Label= etiqueta de un control
+  Input= control (hay varios tipos)
+  -->
+</html>

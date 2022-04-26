@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.tab{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+#tit{
+    font-size: xx-large;
+    color: aliceblue;
+}
+#container{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
